@@ -810,15 +810,5 @@ void Protester::pickUpGold()
     }
 }
 
-Regular_Protesters::Regular_Protesters(StudentWorld *sworld, int x, int y):Protester(sworld, x, y, TID_PROTESTER, 5)
-{
-    
-}
-
-Hardcore_Protesters::Hardcore_Protesters(StudentWorld *sworld, int x, int y):Protester(sworld, x, y, TID_HARD_CORE_PROTESTER, 20)
-{
-    
-}
-
 
 
